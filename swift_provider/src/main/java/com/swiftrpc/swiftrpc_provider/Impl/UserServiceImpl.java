@@ -2,11 +2,11 @@ package com.swiftrpc.swiftrpc_provider.Impl;
 
 import com.swiftrpc.swift_common.model.User;
 import com.swiftrpc.swift_common.service.UserServie;
-import com.swiftrpc.swift_rpc.annotation.HuaWeiRpcService;
+import com.swiftrpc.swift_rpc.annotation.SwiftRpcService;
 import org.springframework.stereotype.Service;
 
 @Service
-@HuaWeiRpcService(auth = false)
+@SwiftRpcService(auth = false)
 public class UserServiceImpl implements UserServie {
     @Override
     public User getuser(User user) {

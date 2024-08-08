@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 
 /**
  * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.annotation
- * @NAME: HuaWeiRpcService
+ * @NAME: SwiftRpcService
  * @USER: tangxiang
  * @DATE: 2024/7/20
  * @PROJECT_NAME: huaweicloud_rpc_project
@@ -17,7 +17,7 @@ import java.lang.annotation.Target;
  **/
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
-public @interface HuaWeiRpcService {
+public @interface SwiftRpcService {
     /**
      * 服务接口类
      * */

@@ -1,6 +1,6 @@
 package com.swiftrpc.swift_rpc.boorstrap;
 
-import com.swiftrpc.swift_rpc.annotation.HuaWeiRpcService;
+import com.swiftrpc.swift_rpc.annotation.SwiftRpcService;
 import com.swiftrpc.swift_rpc.config.RegistryConfig;
 import com.swiftrpc.swift_rpc.config.RpcApplication;
 import com.swiftrpc.swift_rpc.config.RpcConfig;
@@ -67,20 +67,20 @@ public class ProviderBootstrap implements BeanPostProcessor {
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
         // 在服务提供者Bean初始化后，执行注册服务的操作
         Class<?> beanClass = bean.getClass();
-        HuaWeiRpcService huaWeiRpcService = beanClass.getAnnotation(HuaWeiRpcService.class);
-        if(huaWeiRpcService != null){
+        SwiftRpcService swiftRpcService = beanClass.getAnnotation(SwiftRpcService.class);
+        if(swiftRpcService != null){
             /**
              * 1. 获取服务基本信息
              */
             log.info("coming");
-            Class<?> interfaceClass = huaWeiRpcService.interfaceClass();
+            Class<?> interfaceClass = swiftRpcService.interfaceClass();
             // 默认值处理
             if(interfaceClass == void.class){
                 interfaceClass = beanClass.getInterfaces()[0];
             }
             String serviceName = interfaceClass.getName();
-            String serviceVersion = huaWeiRpcService.serviceVersion();
-            boolean auth = huaWeiRpcService.auth();
+            String serviceVersion = swiftRpcService.serviceVersion();
+            boolean auth = swiftRpcService.auth();
             if(auth){
                 SERVICE_AUTH_MAP.put(serviceName, auth);
                 log.info(serviceName + "need to authrization");

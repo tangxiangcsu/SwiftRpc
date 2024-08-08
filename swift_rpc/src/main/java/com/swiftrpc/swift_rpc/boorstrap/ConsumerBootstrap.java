@@ -1,6 +1,6 @@
 package com.swiftrpc.swift_rpc.boorstrap;
 
-import com.swiftrpc.swift_rpc.annotation.HuaWeiRpcReference;
+import com.swiftrpc.swift_rpc.annotation.SwiftRpcReference;
 import com.swiftrpc.swift_rpc.proxy.ServiceProxyFactory;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
@@ -31,7 +31,7 @@ public class ConsumerBootstrap implements BeanPostProcessor {
         // 遍历对象的所有属性
         Field[] declaredFields = beanClass.getDeclaredFields();
         for (Field field : declaredFields) {
-            HuaWeiRpcReference rpcReference = field.getAnnotation(HuaWeiRpcReference.class);
+            SwiftRpcReference rpcReference = field.getAnnotation(SwiftRpcReference.class);
             if (rpcReference != null) {
                 // 为属性生成代理对象
                 Class<?> interfaceClass = rpcReference.interfaceClass();

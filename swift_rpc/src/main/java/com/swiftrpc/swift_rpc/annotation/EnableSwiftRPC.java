@@ -12,7 +12,7 @@ import java.lang.annotation.Target;
 
 /**
  * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.annotation
- * @NAME: EnableHuaWeiRPC
+ * @NAME: EnableSwiftRPC
  * @USER: tangxiang
  * @DATE: 2024/7/20
  * @PROJECT_NAME: huaweicloud_rpc_project
@@ -23,7 +23,7 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 // 注册我们自定义的启动类
 @Import({RpcInitBootStrap.class, ProviderBootstrap.class, ConsumerBootstrap.class})
-public @interface EnableHuaWeiRPC {
+public @interface EnableSwiftRPC {
 
     /**
      * 启动Server服务

@@ -1,11 +1,11 @@
 package com.swiftrpc.swiftrpc_comsumer;
 
-import com.swiftrpc.swift_rpc.annotation.EnableHuaWeiRPC;
+import com.swiftrpc.swift_rpc.annotation.EnableSwiftRPC;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@EnableHuaWeiRPC(needServer = false)
+@EnableSwiftRPC(needServer = false)
 public class SwiftRpcComsumerApplication {
 
     public static void main(String[] args) {

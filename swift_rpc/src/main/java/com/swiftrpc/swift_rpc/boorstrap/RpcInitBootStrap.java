@@ -1,6 +1,6 @@
 package com.swiftrpc.swift_rpc.boorstrap;
 
-import com.swiftrpc.swift_rpc.annotation.EnableHuaWeiRPC;
+import com.swiftrpc.swift_rpc.annotation.EnableSwiftRPC;
 import com.swiftrpc.swift_rpc.config.RpcApplication;
 import com.swiftrpc.swift_rpc.config.RpcConfig;
 import com.swiftrpc.swift_rpc.server.tcp.VertxTcpServer;
@@ -21,7 +21,7 @@ public class RpcInitBootStrap implements ImportBeanDefinitionRegistrar {
     @Override
     public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry) {
         // 获得注解属性
-        boolean neddServer = (boolean)importingClassMetadata.getAnnotationAttributes(EnableHuaWeiRPC.class.getName()).get("needServer");
+        boolean neddServer = (boolean)importingClassMetadata.getAnnotationAttributes(EnableSwiftRPC.class.getName()).get("needServer");
 
         // 初始化RPC框架
         RpcApplication.init();

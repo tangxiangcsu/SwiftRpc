@@ -2,7 +2,7 @@ package com.swiftrpc.swift_rpc.auth;
 
 import com.swiftrpc.swift_common.model.AuthDto;
 import com.swiftrpc.swift_common.service.AuthRequestService;
-import com.swiftrpc.swift_rpc.annotation.HuaWeiRpcReference;
+import com.swiftrpc.swift_rpc.annotation.SwiftRpcReference;
 import com.swiftrpc.swift_rpc.boorstrap.ProviderBootstrap;
 import com.swiftrpc.swift_rpc.model.RpcRequest;
 import com.swiftrpc.swift_rpc.protocol.ProtocolMessage;
@@ -19,7 +19,7 @@ import lombok.extern.slf4j.Slf4j;
  **/
 @Slf4j
 public class AuthFilter implements Filter {
-    @HuaWeiRpcReference
+    @SwiftRpcReference
     AuthRequestService authRequestService;
 
     @Override

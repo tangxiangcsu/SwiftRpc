@@ -2,7 +2,7 @@ package com.swiftrpc.swiftrpc_comsumer;
 
 import com.swiftrpc.swift_common.model.User;
 import com.swiftrpc.swift_common.service.UserServie;
-import com.swiftrpc.swift_rpc.annotation.HuaWeiRpcReference;
+import com.swiftrpc.swift_rpc.annotation.SwiftRpcReference;
 import org.springframework.stereotype.Service;
 
 /**
@@ -17,7 +17,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserServiceImpl {
 
-    @HuaWeiRpcReference
+    @SwiftRpcReference
     private UserServie userServie;
 
     public void test(){
