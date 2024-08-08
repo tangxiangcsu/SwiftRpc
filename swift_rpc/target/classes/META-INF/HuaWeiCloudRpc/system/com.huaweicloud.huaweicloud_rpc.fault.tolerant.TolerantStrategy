@@ -1,0 +1,4 @@
+failBack=com.huaweicloud.huaweicloud_rpc.fault.tolerant.FailBackTolerantStrategy
+failFast=com.huaweicloud.huaweicloud_rpc.fault.tolerant.FailFastTolerantStrategy
+failOver=com.huaweicloud.huaweicloud_rpc.fault.tolerant.FailOverTolerantStrategy
+failSafe=com.huaweicloud.huaweicloud_rpc.fault.tolerant.FailSafeTolerantStrategy

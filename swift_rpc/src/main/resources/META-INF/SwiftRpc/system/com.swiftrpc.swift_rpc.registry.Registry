@@ -1,0 +1,2 @@
+etcd=EtcdRegistry
+zk=ZookeeperRegistry

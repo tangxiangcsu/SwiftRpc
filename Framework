@@ -1,0 +1,30 @@
+Consumer
+-----------
+(1) ServiceProxyFactory: 通过代理去获得提供者提供的方法 -UserServiceImpl
+getProxy(UserService.class) - new InvocationHandler() and inner getuser method
+
+(2) ServiceProxy 生成的具体代理来获得具体方法
+RpcRequest(serviceName, methodName, parameterTypes, args) - serialize - 8080
+
+(3) 在8080端口处理完成以后，收到序列化后的response
+serializer.deserialize(result, RpcResponse.class) - getData
+
+Provider
+----------
+(1) 将本地服务注册当LocalRegistry.register(UserServie.class.getName(), UserServiceImpl.class);
+
+RPC
+----------
+(1) Vertx监听8080端口 - deserialize - rpcRequest// 此时的rpcRequest是consumer通过服务器传过来的
+(2) 通过反射获得运行时的方法，并获得result
+Class<?> implClass = LocalRegistry.get(rpcRequest.getServiceName());
+Method method = implClass.getMethod(rpcRequest.getMethodName(),rpcRequest.getParameterTypes());
+Object result = method.invoke(implClass.newInstance(),rpcRequest.getArgs());
+(3) 再将rpcResponse反序列化
+
+
+Question
+-----------
+question1: provider和consumer如果制定了不同的序列化工具，该如何解决
+
+question2: consumer 向 provider 发送请求的端口号是写死了，需要发现服务

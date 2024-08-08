@@ -1,0 +1,3 @@
+roundRobin=com.huaweicloud.huaweicloud_rpc.loadbalancer.RoundRobinLoadBalancer
+random=com.huaweicloud.huaweicloud_rpc.loadbalancer.RandomLoadBalancer
+consistentHash=com.huaweicloud.huaweicloud_rpc.loadbalancer.ConsistentHashLoadBalancer

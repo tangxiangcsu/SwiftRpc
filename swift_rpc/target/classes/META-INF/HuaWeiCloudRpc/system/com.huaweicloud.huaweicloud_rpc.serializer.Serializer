@@ -1,0 +1,4 @@
+jdk=com.huaweicloud.huaweicloud_rpc.serializer.JdkSerializer
+hessian=com.huaweicloud.huaweicloud_rpc.serializer.HessianSerializer
+json=com.huaweicloud.huaweicloud_rpc.serializer.JsonSerializer
+kryo=com.huaweicloud.huaweicloud_rpc.serializer.KryoSerializer

@@ -1,0 +1,4 @@
+failBack=FailBackTolerantStrategy
+failFast=FailFastTolerantStrategy
+failOver=FailOverTolerantStrategy
+failSafe=FailSafeTolerantStrategy

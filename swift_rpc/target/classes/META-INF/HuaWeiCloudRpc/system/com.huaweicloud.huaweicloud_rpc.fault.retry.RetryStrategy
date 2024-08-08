@@ -1,0 +1,2 @@
+no=com.huaweicloud.huaweicloud_rpc.fault.retry.NoRetryStrategy
+fixedInterval=com.huaweicloud.huaweicloud_rpc.fault.retry.FixedIntervalRetryStrategy
