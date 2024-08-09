@@ -6,7 +6,7 @@
 2. 敏感业务的安全认证：针对支付等常见的服务远程调用，我们引入了AK/SK和鉴权中心，确保你的业务安全。
 3. 各种Serializer器：包括JDK、JSON、Kryo、Hessian，并引入SPI机制，你可以自己扩展自己的序列化器。
 4. 高可用的Rpc：自主实现负载均衡、重试、容错等机制，并通过SPI机制支持用户自主扩展。
-5. 便捷使用，我们自定义了@EnableHuaWeiRPC、@HuaWeiRpcService、@HuaWeiRpcReference注解，一行代码启动rpc服务。
+5. 便捷使用，我们自定义了@EnableSwiftRPC、@SwiftRpcService、@SwiftRpcReference注解，一行代码启动rpc服务。
 # 📚 妙用RPC
 ## 📕Structures
 整个项目分为四部分组成
@@ -73,31 +73,31 @@ rpc.serializer = kryo
 ```
 ### 自定义序列化器
 
-我们引入SPI机制，支持高扩展性，只需要在`com.huaweicloud.huaweicloud_rpc.serializer.Serializer`引入你自定义的序列化器位置即可，格式如下
+我们引入SPI机制，支持高扩展性，只需要在`com.swiftrpc.swift_rpc.serializer.Serializer`引入你自定义的序列化器位置即可，格式如下
 ```java
-jdk=com.huaweicloud.huaweicloud_rpc.serializer.JdkSerializer
-hessian=com.huaweicloud.huaweicloud_rpc.serializer.HessianSerializer
-json=com.huaweicloud.huaweicloud_rpc.serializer.JsonSerializer
-kryo=com.huaweicloud.huaweicloud_rpc.serializer.KryoSerializer
+jdk=com.swiftrpc.swift_rpc.serializer.JdkSerializer
+hessian=com.swiftrpc.swift_rpc.serializer.HessianSerializer
+json=com.swiftrpc.swift_rpc.serializer.JsonSerializer
+kryo=com.swiftrpc.swift_rpc.serializer.KryoSerializer
 ```
 
 ### 自定义注册中心
-我们引入SPI机制，支持高扩展性，只需要在`com.huaweicloud.huaweicloud_rpc.registry.Registry`引入你自定义的注册中心位置即可，格式如下
+我们引入SPI机制，支持高扩展性，只需要在`zk=com.swiftrpc.swift_rpc.registry.Registry`引入你自定义的注册中心位置即可，格式如下
 ```java
-etcd=com.huaweicloud.huaweicloud_rpc.registry.EtcdRegistry
-zk=com.huaweicloud.huaweicloud_rpc.registry.ZookeeperRegistry
+etcd=com.swiftrpc.swift_rpc.registry.EtcdRegistry
+zk=com.swiftrpc.swift_rpc.registry.ZookeeperRegistry
 ```
 ### 服务鉴权
 为了满足特殊业务场景需要服务认证的要求，我们引入AK/SK 机制的认证鉴权机制，并且引入了鉴权服务中心，请在`***`申请。
 
-服务消费者须在鉴权服务中心申请AK/SK对，并在配置文件处设置AK/SK，主要原理是消费端在请求需要鉴权的服务时，会通过 SK、请求元数据、时间戳、参数等信息来生成对应的请求签名，通过 Dubbo 的 Attahcment 机制携带到对端进行验签，验签通过才进行业务逻辑处理。
+服务消费者须在鉴权服务中心申请AK/SK对，并在配置文件处设置AK/SK，主要原理是消费端在请求需要鉴权的服务时，会通过 SK、请求元数据、时间戳、参数等信息来生成对应的请求签名，通过 请求体携带到对端进行验签，验签通过才进行业务逻辑处理。
 ```xml
-rpc.auth.ak = xxxxxx
-rpc.auth.sk = xxxxxx
+rpc.accessAk = xxxxxx
+rpc.sk = xxxxxx
 ```
-服务提供者在 @HuaWeiRpcService处设置需要鉴权服务，未通过鉴权则会直接被拒绝
+服务提供者在 @SwiftRpcService处设置需要鉴权服务，未通过鉴权则会直接被拒绝
 ```java
-@HuaWeiRpcService(auth = true)
+@SwiftRpcService(auth = true)
 ```
 ## 🤗 email
 如果你有任何问题，请尽管联系我 xiangtang@csu.edu.cn 或者18890399541@163.com
