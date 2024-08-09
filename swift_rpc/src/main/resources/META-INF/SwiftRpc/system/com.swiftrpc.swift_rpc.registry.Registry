@@ -1,2 +1,2 @@
-etcd=EtcdRegistry
-zk=ZookeeperRegistry
+etcd=com.swiftrpc.swift_rpc.registry.EtcdRegistry
+zk=com.swiftrpc.swift_rpc.registry.ZookeeperRegistry

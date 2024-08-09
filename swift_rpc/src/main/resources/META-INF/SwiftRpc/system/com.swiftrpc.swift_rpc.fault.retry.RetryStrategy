@@ -1,2 +1,2 @@
-no=NoRetryStrategy
-fixedInterval=FixedIntervalRetryStrategy
+no=com.swiftrpc.swift_rpc.fault.retry.NoRetryStrategy
+fixedInterval=com.swiftrpc.swift_rpc.fault.retry.FixedIntervalRetryStrategy

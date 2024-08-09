@@ -1,4 +1,4 @@
-jdk=JdkSerializer
-hessian=HessianSerializer
-json=JsonSerializer
-kryo=KryoSerializer
+jdk=com.swiftrpc.swift_rpc.serializer.JdkSerializer
+hessian=com.swiftrpc.swift_rpc.serializer.HessianSerializer
+json=com.swiftrpc.swift_rpc.serializer.JsonSerializer
+kryo=com.swiftrpc.swift_rpc.serializer.KryoSerializer

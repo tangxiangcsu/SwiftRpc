@@ -1,4 +1,4 @@
-failBack=FailBackTolerantStrategy
-failFast=FailFastTolerantStrategy
-failOver=FailOverTolerantStrategy
-failSafe=FailSafeTolerantStrategy
+failBack=com.swiftrpc.swift_rpc.fault.tolerant.FailBackTolerantStrategy
+failFast=com.swiftrpc.swift_rpc.fault.tolerant.FailFastTolerantStrategy
+failOver=com.swiftrpc.swift_rpc.fault.tolerant.FailOverTolerantStrategy
+failSafe=com.swiftrpc.swift_rpc.fault.tolerant.FailSafeTolerantStrategy

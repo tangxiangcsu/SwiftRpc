@@ -1,3 +1,3 @@
-roundRobin=RoundRobinLoadBalancer
-random=RandomLoadBalancer
-consistentHash=ConsistentHashLoadBalancer
+roundRobin=com.swiftrpc.swift_rpc.loadbalancer.RoundRobinLoadBalancer
+random=com.swiftrpc.swift_rpc.loadbalancer.RandomLoadBalancer
+consistentHash=com.swiftrpc.swift_rpc.loadbalancer.ConsistentHashLoadBalancer
