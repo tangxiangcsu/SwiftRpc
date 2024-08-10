@@ -34,8 +34,6 @@ import java.util.Map;
 public class ServiceProxy implements InvocationHandler {
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        // 序列化器，从配置文件中获得名字，再从SerializerFacrtory获得序列化器
-        Serializer serializer = SerializerFactory.getInstance(RpcApplication.getRpcConfig().getSerializer());
         RpcConfig rpcConfig = RpcApplication.getRpcConfig();
         // 构造请求
         String serviceName = method.getDeclaringClass().getName();
@@ -52,9 +50,6 @@ public class ServiceProxy implements InvocationHandler {
                 .build();
         RpcResponse rpcResponse;
         try {
-            // 序列化
-            byte[] bytes = serializer.serialize(rpcRequest);
-
             // 从注册中心获得服务提供者地址
             Registry registry = RegistryFactory.getInstance(rpcConfig.getRegistryConfig().getRegistry());
             ServiceMetaInfo serviceMetaInfo = new ServiceMetaInfo();

@@ -25,7 +25,7 @@ public class AkSkAuthCheck {
         Long currentTimestamp = System.currentTimeMillis()/1000;
         String sign = request.getSign();
         // todo 实际情况应该是去数据库中查是否已分配给用户
-        if (!accessKey.equals(AuthConstant.ACCESSKEY)) {
+        if (!accessKey.equals(request.getAccessKey())) {
             throw new RuntimeException("无权限");
         }
         if (Long.parseLong(nonce) > 10000) {
@@ -36,7 +36,7 @@ public class AkSkAuthCheck {
             throw new RuntimeException("超时");
         }
         // todo 实际情况中是从数据库中查出 secretKey
-        String serverSign = SignUtils.genSign1(protocolMessage, AuthConstant.SECRETKEY);
+        String serverSign = SignUtils.genSign1(protocolMessage, request.getSecretKey());
         if (!sign.equals(serverSign)) {
             throw new RuntimeException("无权限");
         }

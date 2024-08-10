@@ -9,8 +9,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>2.6.13</spring-boot.version>
     </properties>
-    <groupId>com.huaweicloud</groupId>
-    <artifactId>huaweicloud_rpc</artifactId>
+    <groupId>com.swiftrpc</groupId>
+    <artifactId>swift_rpc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <dependencies>

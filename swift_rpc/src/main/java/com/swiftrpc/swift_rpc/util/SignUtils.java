@@ -4,6 +4,8 @@ import cn.hutool.crypto.digest.DigestAlgorithm;
 import cn.hutool.crypto.digest.Digester;
 import com.swiftrpc.swift_rpc.protocol.ProtocolMessage;
 
+import java.nio.charset.StandardCharsets;
+
 /**
  * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.util
  * @NAME: SignUtils
@@ -26,7 +28,7 @@ public class SignUtils {
         // 构建签名内容，将哈希映射转换为字符串并拼接密钥
         String content = protocolMessage.toString() + "." + secretKey;
         // 计算签名的摘要并返回摘要的十六进制表示形式
-        return md5.digestHex(content);
+        return md5.digestHex(content.getBytes(StandardCharsets.UTF_8));
     }
 
 }
