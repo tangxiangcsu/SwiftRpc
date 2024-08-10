@@ -4,11 +4,10 @@ import cn.hutool.core.util.RandomUtil;
 import cn.hutool.crypto.digest.DigestUtil;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.auth
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.auth
  * @NAME: AuthUtil
  * @USER: tangxiang
  * @DATE: 2024/7/27
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION: 生成密钥和公钥
  **/
 public class AuthUtil {

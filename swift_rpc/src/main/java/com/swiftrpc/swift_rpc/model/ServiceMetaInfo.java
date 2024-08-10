@@ -5,11 +5,10 @@ import com.swiftrpc.swift_rpc.constant.RpcConstant;
 import lombok.Data;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.model
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.model
  * @NAME: ServiceMetaInfo
  * @USER: tangxiang
  * @DATE: 2024/7/13
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION:
  **/
 @Data

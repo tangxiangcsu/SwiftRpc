@@ -7,11 +7,10 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.fault.retry
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.fault.retry
  * @NAME: FixedIntervalRetryStrategy
  * @USER: tangxiang
  * @DATE: 2024/7/20
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION: 固定间隔的重试策略
  **/
 

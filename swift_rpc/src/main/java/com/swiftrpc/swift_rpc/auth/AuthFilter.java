@@ -10,11 +10,10 @@ import io.vertx.core.Handler;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.auth
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.auth
  * @NAME: AuthFilter
  * @USER: tangxiang
  * @DATE: 2024/7/27
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION: 鉴权过滤器实现
  **/
 @Slf4j

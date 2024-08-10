@@ -9,11 +9,10 @@ import org.springframework.context.annotation.ImportBeanDefinitionRegistrar;
 import org.springframework.core.type.AnnotationMetadata;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.boorstrap
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.boorstrap
  * @NAME: RpcInitBootStrap
  * @USER: tangxiang
  * @DATE: 2024/7/21
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION: RPC注解全局启动框架，获得@EnableHuaWeiRPC注解属性，并初始化RPC框架
  **/
 

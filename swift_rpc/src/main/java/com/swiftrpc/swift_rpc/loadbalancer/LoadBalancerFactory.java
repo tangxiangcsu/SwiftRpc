@@ -3,11 +3,10 @@ package com.swiftrpc.swift_rpc.loadbalancer;
 import com.swiftrpc.swift_rpc.spi.SpiLoader;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.loadbalancer
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.loadbalancer
  * @NAME: LoadBalancerFactory
  * @USER: tangxiang
  * @DATE: 2024/7/20
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION:
  **/
 public class LoadBalancerFactory {

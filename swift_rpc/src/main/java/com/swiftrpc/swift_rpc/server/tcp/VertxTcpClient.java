@@ -18,11 +18,10 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.server.tcp
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.server.tcp
  * @NAME: VertxTcpClient
  * @USER: tangxiang
  * @DATE: 2024/7/14
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION: 所有请求响应的逻辑提取出来进行封装
  **/
 

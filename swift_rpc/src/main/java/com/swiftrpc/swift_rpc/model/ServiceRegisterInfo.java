@@ -5,11 +5,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.model
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.model
  * @NAME: ServiceRegisterInfo
  * @USER: tangxiang
  * @DATE: 2024/7/20
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION: 服务提供者的封装类
  **/
 

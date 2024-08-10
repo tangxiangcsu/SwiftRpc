@@ -4,11 +4,10 @@ import com.swiftrpc.swift_rpc.registry.RegistryKeys;
 import lombok.Data;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.config
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.config
  * @NAME: RegistryConfig
  * @USER: tangxiang
  * @DATE: 2024/7/13
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION:
  **/
 @Data

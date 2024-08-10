@@ -7,11 +7,10 @@ import java.util.Map;
 import java.util.TreeMap;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.loadbalancer
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.loadbalancer
  * @NAME: ConsistentHashLoadBalancer
  * @USER: tangxiang
  * @DATE: 2024/7/20
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION: 一致性hash算法，使用TreeMap实现Hash环，使用该数据结构提供的ceilingEntry和firstEntry方法
  **/
 public class ConsistentHashLoadBalancer implements LoadBalancer{

@@ -6,11 +6,10 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.loadbalancer
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.loadbalancer
  * @NAME: LoadBalancer
  * @USER: tangxiang
  * @DATE: 2024/7/19
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION:
  **/
 public interface LoadBalancer {

@@ -11,11 +11,10 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.registry
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.registry
  * @NAME: EtcdRegistry
  * @USER: tangxiang
  * @DATE: 2024/7/14
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION:
  **/
 public class EtcdRegistryDemo {

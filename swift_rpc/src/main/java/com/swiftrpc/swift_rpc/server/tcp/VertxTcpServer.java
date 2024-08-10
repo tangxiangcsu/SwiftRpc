@@ -7,11 +7,10 @@ import io.vertx.core.Vertx;
 import io.vertx.core.net.NetServer;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.server.tcp
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.server.tcp
  * @NAME: VertxTcpServer
  * @USER: tangxiang
  * @DATE: 2024/7/14
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION:
  **/
 public class VertxTcpServer implements HttpServer {

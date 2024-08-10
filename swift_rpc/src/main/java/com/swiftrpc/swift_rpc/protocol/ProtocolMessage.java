@@ -7,11 +7,10 @@ import lombok.NoArgsConstructor;
 import java.lang.reflect.Type;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.protocol
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.protocol
  * @NAME: ProtocalMessage
  * @USER: tangxiang
  * @DATE: 2024/7/14
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION:
  **/
 @Data

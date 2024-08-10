@@ -4,11 +4,10 @@ import io.vertx.core.Vertx;
 import io.vertx.core.buffer.Buffer;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.registry
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.registry
  * @NAME: VeretxTcpClientTest
  * @USER: tangxiang
  * @DATE: 2024/7/28
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION:
  **/
 public class VeretxTcpClientTest {

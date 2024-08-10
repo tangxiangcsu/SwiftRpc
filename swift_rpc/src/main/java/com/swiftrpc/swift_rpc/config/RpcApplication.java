@@ -6,11 +6,10 @@ import com.swiftrpc.swift_rpc.registry.RegistryFactory;
 import com.swiftrpc.swift_rpc.util.ConfigUtils;
 
 /**
- * @PACKAGE_NAME: Serializer.config
+ * @PACKAGE_NAME: swiftrpc.config
  * @NAME: RpcApplication
  * @USER: tangxiang
  * @DATE: 2024/7/13
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION: 维护一个全局个单列配置信息实例，当第一次调用就全局维护，减少配置对象的创建
  **/
 public class RpcApplication {

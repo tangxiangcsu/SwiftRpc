@@ -8,7 +8,6 @@ import cn.hutool.setting.dialect.Props;
  * @NAME: ConfigUtils
  * @USER: tangxiang
  * @DATE: 2024/7/13
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION: 读取 application.properties 配置文件并返回配置对象，简化开发
  **/
 public class ConfigUtils {

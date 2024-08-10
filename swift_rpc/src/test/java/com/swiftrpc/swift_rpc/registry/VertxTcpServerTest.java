@@ -8,11 +8,10 @@ import io.vertx.core.net.NetServer;
 import io.vertx.core.parsetools.RecordParser;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.registry
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.registry
  * @NAME: VertxTcpServerTest
  * @USER: tangxiang
  * @DATE: 2024/7/28
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION:
  **/
 public class VertxTcpServerTest implements HttpServer {

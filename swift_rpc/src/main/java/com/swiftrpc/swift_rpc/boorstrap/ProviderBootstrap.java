@@ -19,11 +19,10 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.boorstrap
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.boorstrap
  * @NAME: ProviderBootstrap
  * @USER: tangxiang
  * @DATE: 2024/7/20
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION: 服务提供者的启动类，利用Bean的特性去监听Bean的加载，直接获取服务提供者的Bean对象
  **/
 @Slf4j

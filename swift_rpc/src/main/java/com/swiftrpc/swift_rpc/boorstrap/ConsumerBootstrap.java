@@ -8,11 +8,10 @@ import org.springframework.beans.factory.config.BeanPostProcessor;
 import java.lang.reflect.Field;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.boorstrap
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.boorstrap
  * @NAME: ConsumerBootstrap
  * @USER: tangxiang
  * @DATE: 2024/7/20
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION:
  **/
 public class ConsumerBootstrap implements BeanPostProcessor {

@@ -8,11 +8,10 @@ import io.vertx.core.buffer.Buffer;
 import java.io.IOException;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.protocol
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.protocol
  * @NAME: ProtocolMessageEncoder
  * @USER: tangxiang
  * @DATE: 2024/7/15
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION: 向Buffer缓冲区中写入消息对象，存在粘包半包的问题
  **/
 public class ProtocolMessageEncoder {

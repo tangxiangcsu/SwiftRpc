@@ -8,11 +8,10 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.protocol
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.protocol
  * @NAME: ProtocolMessageSerializerEnum
  * @USER: tangxiang
  * @DATE: 2024/7/14
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION: 协议消息的序列化器枚举，跟我们 RPC 框架已支持的序列化器对应。代码如下：
  **/
 @Getter

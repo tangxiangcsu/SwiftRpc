@@ -3,7 +3,6 @@ package com.swiftrpc.swift_rpc.registry;
 import cn.hutool.core.util.IdUtil;
 import com.swiftrpc.swift_rpc.constant.RpcConstant;
 import com.swiftrpc.swift_rpc.model.RpcRequest;
-import com.huaweicloud.huaweicloud_rpc.protocol.*;
 import com.swiftrpc.swift_rpc.protocol.*;
 import io.vertx.core.buffer.Buffer;
 import org.junit.Assert;
@@ -12,11 +11,10 @@ import org.junit.Test;
 import java.io.IOException;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.registry
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.registry
  * @NAME: ProtocolMessageTest
  * @USER: tangxiang
  * @DATE: 2024/7/15
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION: 编码解码测试
  **/
 public class ProtocolMessageTest {

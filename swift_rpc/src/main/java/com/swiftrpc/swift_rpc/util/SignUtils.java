@@ -7,11 +7,10 @@ import com.swiftrpc.swift_rpc.protocol.ProtocolMessage;
 import java.nio.charset.StandardCharsets;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.util
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.util
  * @NAME: SignUtils
  * @USER: tangxiang
  * @DATE: 2024/7/27
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION:
  **/
 public class SignUtils {

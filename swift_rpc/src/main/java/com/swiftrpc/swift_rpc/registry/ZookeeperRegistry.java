@@ -21,11 +21,10 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.registry
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.registry
  * @NAME: ZookeeperRegistry
  * @USER: tangxiang
  * @DATE: 2024/7/14
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION:
  **/
 

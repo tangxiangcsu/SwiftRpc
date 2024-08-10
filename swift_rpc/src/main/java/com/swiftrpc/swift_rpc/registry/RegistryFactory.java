@@ -3,11 +3,10 @@ package com.swiftrpc.swift_rpc.registry;
 import com.swiftrpc.swift_rpc.spi.SpiLoader;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.registry
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.registry
  * @NAME: RegistryFactory
  * @USER: tangxiang
  * @DATE: 2024/7/13
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION: 支持多种注册中心，ETCD, ZK
  **/
 public class RegistryFactory {

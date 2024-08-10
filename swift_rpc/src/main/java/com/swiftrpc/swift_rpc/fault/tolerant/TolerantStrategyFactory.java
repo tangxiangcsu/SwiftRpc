@@ -3,11 +3,10 @@ package com.swiftrpc.swift_rpc.fault.tolerant;
 import com.swiftrpc.swift_rpc.spi.SpiLoader;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.fault.tolerant
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.fault.tolerant
  * @NAME: TolerantStrategyFactory
  * @USER: tangxiang
  * @DATE: 2024/7/20
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION:
  **/
 public class TolerantStrategyFactory {

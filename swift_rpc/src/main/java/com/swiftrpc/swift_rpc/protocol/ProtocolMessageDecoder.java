@@ -9,11 +9,10 @@ import io.vertx.core.buffer.Buffer;
 import java.io.IOException;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.protocol
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.protocol
  * @NAME: ProtocolMessageDecoder
  * @USER: tangxiang
  * @DATE: 2024/7/15
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION:
  **/
 public class ProtocolMessageDecoder {

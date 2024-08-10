@@ -7,7 +7,6 @@ import com.swiftrpc.swift_rpc.spi.SpiLoader;
  * @NAME: SerializerFactory
  * @USER: tangxiang
  * @DATE: 2024/7/13
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION: 序列化工厂，用以获取序列化对象
  **/
 public class SerializerFactory {

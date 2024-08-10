@@ -5,11 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc
  * @NAME: Application
  * @USER: tangxiang
  * @DATE: 2024/8/4
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION:
  **/
 @SpringBootApplication

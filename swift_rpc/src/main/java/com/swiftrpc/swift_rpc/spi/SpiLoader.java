@@ -18,7 +18,6 @@ import java.util.concurrent.ConcurrentHashMap;
  * @NAME: SpiLoader
  * @USER: tangxiang
  * @DATE: 2024/7/13
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION:
  **/
 @Slf4j

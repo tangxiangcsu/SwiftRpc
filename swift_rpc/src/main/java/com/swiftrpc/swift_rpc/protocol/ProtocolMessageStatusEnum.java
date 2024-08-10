@@ -3,11 +3,10 @@ package com.swiftrpc.swift_rpc.protocol;
 import lombok.Getter;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.protocol
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.protocol
  * @NAME: ProtocolMessageStatusEnum
  * @USER: tangxiang
  * @DATE: 2024/7/14
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION:
  **/
 @Getter

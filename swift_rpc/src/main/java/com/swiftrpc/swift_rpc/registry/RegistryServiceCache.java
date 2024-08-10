@@ -5,11 +5,10 @@ import com.swiftrpc.swift_rpc.model.ServiceMetaInfo;
 import java.util.List;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.registry
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.registry
  * @NAME: RegistryServiceCache
  * @USER: tangxiang
  * @DATE: 2024/7/13
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION: 消费端的服务本地缓存，主要提供给消费者使用，当消费者请求到服务列表后，在本地进行缓存，提高性能
  **/
 public class RegistryServiceCache {

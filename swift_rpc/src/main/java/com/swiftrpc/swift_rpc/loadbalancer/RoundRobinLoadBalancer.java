@@ -7,11 +7,10 @@ import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.loadbalancer
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.loadbalancer
  * @NAME: RoundRobinLoadBalancer
  * @USER: tangxiang
  * @DATE: 2024/7/19
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION: 轮询负载均衡
  **/
 public class RoundRobinLoadBalancer implements LoadBalancer{

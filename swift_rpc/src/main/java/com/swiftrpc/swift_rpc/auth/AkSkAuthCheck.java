@@ -6,11 +6,10 @@ import com.swiftrpc.swift_rpc.protocol.ProtocolMessage;
 import com.swiftrpc.swift_rpc.util.SignUtils;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.auth
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.auth
  * @NAME: AkSkAuthFilter
  * @USER: tangxiang
  * @DATE: 2024/7/27
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION: 请求处理器鉴权
  **/
 public class AkSkAuthCheck {

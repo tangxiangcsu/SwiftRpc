@@ -8,11 +8,10 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.annotation
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.annotation
  * @NAME: SwiftRpcService
  * @USER: tangxiang
  * @DATE: 2024/7/20
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION: 在Provider中使用，用于声明RPC服务，需要在注册和提供的服务类上使用
  **/
 @Target({ElementType.TYPE})

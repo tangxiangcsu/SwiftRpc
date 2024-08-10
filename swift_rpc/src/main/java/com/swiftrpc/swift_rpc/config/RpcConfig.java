@@ -11,7 +11,6 @@ import lombok.Data;
  * @NAME: RpcConfig
  * @USER: tangxiang
  * @DATE: 2024/7/13
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION: RPC配置基架
  **/
 @Data

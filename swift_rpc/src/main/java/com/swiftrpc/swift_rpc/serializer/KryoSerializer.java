@@ -12,7 +12,6 @@ import java.io.ByteArrayOutputStream;
  * @NAME: KryoSerializer
  * @USER: tangxiang
  * @DATE: 2024/7/13
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION: KryoSerializer
  **/
 public class KryoSerializer implements Serializer{

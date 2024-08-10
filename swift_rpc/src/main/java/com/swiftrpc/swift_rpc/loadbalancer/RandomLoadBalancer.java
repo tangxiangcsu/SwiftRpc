@@ -7,11 +7,10 @@ import java.util.Map;
 import java.util.Random;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.loadbalancer
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.loadbalancer
  * @NAME: RandomLoadBalancer
  * @USER: tangxiang
  * @DATE: 2024/7/20
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION:
  **/
 public class RandomLoadBalancer implements LoadBalancer{

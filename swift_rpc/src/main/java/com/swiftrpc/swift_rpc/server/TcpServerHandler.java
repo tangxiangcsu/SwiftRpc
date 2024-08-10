@@ -15,11 +15,10 @@ import java.io.IOException;
 import java.lang.reflect.Method;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.server
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.server
  * @NAME: TcpServerHandler
  * @USER: tangxiang
  * @DATE: 2024/7/15
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION: 请求处理器（服务提供者）
  **/
 public class TcpServerHandler implements Handler<NetSocket> {

@@ -6,11 +6,10 @@ import io.vertx.core.buffer.Buffer;
 import io.vertx.core.parsetools.RecordParser;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.server.tcp
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.server.tcp
  * @NAME: TcpBufferHandlerWrapper
  * @USER: tangxiang
  * @DATE: 2024/7/16
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION:
  **/
 public class TcpBufferHandlerWrapper implements Handler<Buffer> {

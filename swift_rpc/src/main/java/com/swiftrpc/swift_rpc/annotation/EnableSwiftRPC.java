@@ -11,11 +11,10 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.annotation
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.annotation
  * @NAME: EnableSwiftRPC
  * @USER: tangxiang
  * @DATE: 2024/7/20
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION:
  **/
 

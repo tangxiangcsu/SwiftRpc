@@ -6,11 +6,10 @@ import com.swiftrpc.swift_rpc.model.ServiceMetaInfo;
 import java.util.List;
 
 /**
- * @PACKAGE_NAME: com.huaweicloud.huaweicloud_rpc.registry
+ * @PACKAGE_NAME: com.swiftrpc.huaweicloud_rpc.registry
  * @NAME: Registry
  * @USER: tangxiang
  * @DATE: 2024/7/13
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION: 注册中心接口，方便后续对注册中心进行扩展
  **/
 public interface Registry {

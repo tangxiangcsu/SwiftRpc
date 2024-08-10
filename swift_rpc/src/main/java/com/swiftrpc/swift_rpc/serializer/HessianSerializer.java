@@ -12,7 +12,6 @@ import java.io.IOException;
  * @NAME: HessianSerializer
  * @USER: tangxiang
  * @DATE: 2024/7/13
- * @PROJECT_NAME: huaweicloud_rpc_project
  * @DESCRIPTION:
  **/
 public class HessianSerializer implements Serializer{
